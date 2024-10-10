@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #141414; 
+  color: white;
+}
+header {
+  background-color: transparent; 
+  padding: 20px 0;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+}
+.conteiner {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.content {
+  display: flex;
+  align-items: center;
+}
+.logo img {
+  width: 100px;
+}
+.links {
+  margin-left: 20px;
+}
+.links ul {
+  list-style: none;
+  display: flex;
+}
+.links li {
+  margin: 0 15px;
+}
+.links a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+.links a:hover {
+  color: #f0f0f0; 
+}
+.buttons {
+  display: flex;
+  align-items: center;
+}
+.buttons div {
+  margin-left: 15px;
+  cursor: pointer;
+}
+.buttons img {
+  filter: invert(100%);
+  width: 30px;
+  height: 30px;
+}
+#movieCarousel {
+  
+}
+.carousel-item {
+  height: calc(100vh - 80px); /* Ajuste a altura conforme necessário */
+  background-size: cover;
+  background-position: center;
+}
+.carousel-caption {
+  background: rgba(0, 0, 0, 0.7);
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 20px;
+}
+.btn-watch {
+  background-color: white;
+  color: black;
+}
+.btn-list {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: white;
+}
